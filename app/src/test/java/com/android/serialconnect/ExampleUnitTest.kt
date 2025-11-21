@@ -1,4 +1,4 @@
-package com.android.sppconnect
+package com.android.serialconnect
 
 import org.junit.Test
 

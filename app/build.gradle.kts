@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "com.android.sppconnect"
+    namespace = "com.android.serialconnect"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.android.sppconnect"
+        applicationId = "com.android.serialconnect"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

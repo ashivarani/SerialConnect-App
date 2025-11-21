@@ -1,6 +1,5 @@
-package com.android.sppconnect.ui.theme
+package com.android.serialconnect.ui.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
