@@ -15,8 +15,18 @@ android {
         applicationId = "com.android.serialconnect"
         minSdk = 24
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0"
+
+        /**
+         * Versioning configuration.
+         * versionCode is calculated as: major * 10000 + minor * 100 + patch
+         * versionName is "major.minor.patch"
+         */
+        val versionMajor = 1
+        val versionMinor = 0
+        val versionPatch = 1
+
+        versionCode = (versionMajor * 10000) + (versionMinor * 100) + versionPatch
+        versionName = "$versionMajor.$versionMinor.$versionPatch"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
