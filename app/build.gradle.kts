@@ -1,5 +1,6 @@
 import java.text.SimpleDateFormat
 import java.util.Date
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -59,6 +60,7 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
 }
+
 /**
  * Provider for the app version name.
  * Fallbacks to "0.0.0" if versionName is not set.

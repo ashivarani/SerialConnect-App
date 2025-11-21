@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "SPP Connect"
+rootProject.name = "Serial Connect"
 include(":app")
  
