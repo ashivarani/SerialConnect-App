@@ -1,4 +1,4 @@
-package com.android.sppconnect.ui.theme
+package com.android.serialconnect.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
